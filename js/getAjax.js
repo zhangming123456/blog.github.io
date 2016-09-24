@@ -93,3 +93,13 @@ function getAjax(url, options, callback) {
     xhr.send(null);//get方法必须传入null
     //如果是post请求则为send(serialize(formdata));
 }
+
+
+
+
+function handleResponse(response) {
+  alert(response.name);
+}
+var script = document.createElement('script');
+script.src = 'http://localhost:3000/json?callback=handleResponse';
+document.body.insertBefore(script, document.body.firstChild);
