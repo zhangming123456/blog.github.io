@@ -84,8 +84,6 @@ function getAjax(url, options, callback) {
         }
         return arry.join("&");
     }
-    
-    
 
     //3.open方法  url地址要加上option序列化
     xhr.open("GET", url, true);
@@ -96,3 +94,12 @@ function getAjax(url, options, callback) {
     //如果是post请求则为send(serialize(formdata));
 }
 
+
+
+
+function handleResponse(response) {
+  alert(response.name);
+}
+var script = document.createElement('script');
+script.src = 'http://localhost:3000/json?callback=handleResponse';
+document.body.insertBefore(script, document.body.firstChild);
