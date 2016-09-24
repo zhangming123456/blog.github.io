@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>网易教育产品部</title>
+    <link rel="stylesheet" href="./css/reset/reset.css">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/myCss/navigate.css">
+    <link rel="stylesheet" href="css/myCss/content.css">
+    <script src="js/getAjax.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/md5.min.js"></script>
+</head>
+<body>
+<div id="navigate">
+    <div id="topnav">
+        <div>
+            <p class="topnav-l">
+                网易云课堂微专业，帮助你掌握专业技能，令你求职或加薪多一份独特优势！<a href="#">立即查看 &gt;</a>
+            </p>
+
+            <p class="topnav-r">不再提醒</p>
+            <p class="topnav-r tr"></p>
+        </div>
+    </div>
+    <div class="block-c">
+        <div class="left">
+            <ul>
+                <li>
+                    <h1>
+                        <a href="http://binbinwuli.com" title="网易教育产品部">网易教育产品部</a>
+                    </h1>
+                </li>
+                <li>
+                    <input type="button" value="关注" id="gz-button" class="focus"/>
+                    <a class="qx" href="#">取消</a>
+                    <span class="fans">粉丝<em>45</em></span>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#">网易云课堂</a></li>
+                <li><a href="#">云课堂</a></li>
+                <li><a href="#">中国大学MOOC</a></li>
+                <li><a class="ss" href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="content">
+    <div class="con-top">
+        <div class="con-solid">
+            <div class="imgwrap f-cb" id="imgwrap" style="left: 0;">
+                <div class="banner banner-0" data-index="0">
+                    <a href="http://open.163.com/" target="_blank"></a>
+                </div>
+                <div class="banner banner-1" data-index="1">
+                    <a href="http://study.163.com/" target="_blank"></a>
+                </div>
+                <div class="banner banner-2" data-index="2">
+                    <a href="http://www.icourse163.org/" target="_blank"></a>
+                </div>
+            </div>
+            <ul class="buttons">
+                <li data-index="0" class="one"></li>
+                <li data-index="1"></li>
+                <li data-index="2"></li>
+            </ul>
+        </div>
+        <div></div>
+    </div>
+    <div class="c-banner">
+        <ul class="banner">
+            <li class="banner-p banner0"></li>
+            <li class="banner-c">
+                <h3>网易云公开课</h3>
+                <p>推出国内外名校公开课，涉及广泛的学科，名校老师认真讲解深度剖析，网易视频公开课频道搭建起强有力的网络视频教学平台。</p>
+                <a href="http://www.open.com" target="_blank">了解更多&gt;</a>
+            </li>
+            <li class="banner-p banner1"></li>
+            <li class="banner-c">
+                <h3>云课堂</h3>
+                <p>网易旗下大型在线学习平台，该平台面向学习者提供海量免费、优质课程，创新的个性化学习体验，自由开放的交流互动环境。</p>
+                <a href="http://study.163.com/" target="_blank">了解更多&gt;</a>
+            </li>
+            <li class="banner-p banner2"></li>
+            <li class="bc">
+                <h3>中国大学MOOC</h3>
+                <p>是爱课程网携手云课堂打造的在线学习平台，每一个有提升愿望的人，都可以在这里学习中国最好的大学课程，学完还能获得认证证书。</p>
+                <a href="http://www.icourse163.org/" target="_blank">了解更多&gt;</a>
+            </li>
+        </ul>
+    </div>
+    <div class="c-photo">
+        <ul>
+            <li><img src="./img/c-photo0.jpg" alt=""></li>
+            <li><img src="./img/c-photo1.jpg" alt=""></li>
+            <li><img src="./img/c-photo2.jpg" alt=""></li>
+            <li><img src="./img/c-photo3.jpg" alt=""></li>
+            <li><img src="./img/c-photo4.jpg" alt=""></li>
+        </ul>
+    </div>
+    <div class="c-tab">
+        <div class="ct-left">
+            <div class="tab">
+                <div class="_tab _productD" data-id="10">产品设计</div>
+                <div class="_tab _pmLanguage" data-id="20">编程语言</div>
+            </div>
+            <div class="t-left">
+                <ul id="disPlay" style="display: none">
+                    <li>
+                        <img class="imgphoto">
+                        <h3 class="fonttab name name0"></h3>
+                        <p class="fonttab provider provider-n"></p>
+                        <div class="fonttab learnerCount learnerCount-n"></div>
+                        <i class="fonttab price"></i>
+                        <a class="#">
+                            <div>
+                                <img class="imgphoto">
+                                <h3 class="fonttab name"></h3>
+                                <p class="fonttab learnerCount"><span class="learnerCount-n"></span>人在学</p>
+                                <p class="fonttab provider">发布者：<span class="provider-n"></span></p>
+                                <p class="fonttab categoryName">分类：<span class="categoryName-n"></span></p>
+                            </div>
+                            <p class="fonttab description"></p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="productD">
+                    <ul></ul>
+                </div>
+                <div id="paging">
+                    <div class="paging paging0" data-paging-num="1">&gt;</div>
+                    <ul class="paging paging1"></ul>
+                    <div class="paging paging0" data-paging-num="-1">&lt;</div>
+                </div>
+            </div>
+        </div>
+        <div class="ct-right">
+            <div class="tr-top">
+                <h4>机构介绍</h4>
+                <p class="trt">观看下面的视频来了解吧：</p>
+                <img class="trt" src="./img/video.jpg">
+                <img class="trt-play" src="img/play.png">
+            </div>
+            <div id="hottesTranking" class="tr-button">
+                <h4>最热排行</h4>
+                <div class="tyb">
+                    <ul class="tyb-ranking tyb-ranking0">
+                        <li>
+                            <img>
+                            <h5></h5>
+                            <p></p>
+                        </li>
+                    </ul>
+                    <ul class="tyb-ranking tyb-ranking1">
+                        <li>
+                            <img>
+                            <h5></h5>
+                            <p></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="f-div">
+        <div class="f-div0">
+            <h3>网易教育产品部</h3>
+            <i>©2014 icourse163.org 浙ICP备08114786号-1</i>
+            <i>icourses.cn 京ICP备12020869号-2 京公网安备110102000459-2</i>
+        </div>
+        <div class="f-div1">
+            <p>友情链接：</p>
+            <a href="http://www.open.163.com/" target="_blank" data-index="网易公开课">网易公开课</a>
+            <a href="http://www.study.163.com" target="_blank" data-index="云课堂">云课堂</a>
+            <a href="http://www.icourse163.org/" target="_blank" data-index="中国大学MOOC">中国大学MOOC</a>
+        </div>
+        <div class="f-div2">
+            <p>关于:</p>
+            <a href="http://study.163.com/about/aboutus.htm#/about?aboutType=1" target="_blank"
+               data-index="关于我们">关于我们</a>
+            <a href="http://study.163.com/about/aboutus.htm#/about?aboutType=2" target="_blank"
+               data-index="联系我们">联系我们</a>
+            <a href="http://weibo.com/study163" target="_blank" data-index="关注我们_微博" id="auto-id-1474546522160">关注我们<i
+                    class="weibo"></i></a>
+        </div>
+        <div class="f-div3">
+            <p>更多：</p>
+            <a href="http://study.163.com/about/aboutus.htm#/about?aboutType=4&subType=0" target="_blank"
+               data-index="意见反馈">常见问题</a>
+            <a href="http://study.163.com/about/aboutus.htm#/about?aboutType=8" target="_blank"
+               data-index="意见反馈">意见反馈</a>
+        </div>
+    </div>
+</div>
+<div id="sab"></div>
+<div id="login">
+    <p>登录网易云课堂</p>
+    <p class="Stop Stoplogin">x</p>
+    <div class="form">
+        <div id="loginHint"></div>
+        <div>
+            <input id="userName" name="userName" type="text" placeholder="账号">
+        </div>
+        <div>
+            <input id="password" name="password" type="password" placeholder="密码"><br/>
+        </div>
+        <div>
+            <button class="loginBtn">登 录</button>
+        </div>
+    </div>
+</div>
+<div id="video">
+    <p>请观看下面视频</p>
+    <p class="Stop Stopvideo">x</p>
+    <video width="889" height="538" src="http://mov.bn.netease.com/open-movie/nos/mp4/2014/12/30/SADQ86F5S_shd.mp4"
+           poster="./img/videoBG.jpg" controls preload="none"></video>
+</div>
+
+
+<script src="js/index.js"></script>
+</body>
+</html>
