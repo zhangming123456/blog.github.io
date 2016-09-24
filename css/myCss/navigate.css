@@ -1,0 +1,274 @@
+#navigate {
+    width: 100%;
+    text-align: center;
+}
+
+#navigate .block-c {
+    display: inline-block;
+    width: 1200px;
+    height: 90px;
+    line-height: 90px;
+
+}
+
+#navigate li {
+    line-height: 22px;
+    display: inline-block;
+}
+
+#navigate .left {
+    float: left;
+}
+
+#navigate .left li {
+    margin-right: 30px;
+    font: 12px/21px "SimSun-ExtB";
+}
+
+#navigate h1 > a {
+    width: 156px;
+    font: 22px/22px "Microsoft Yahei";
+    padding-left: 84px;
+    background: url("../../img/spirit.png") -220px 2px no-repeat;
+}
+
+#navigate .left #gz-button {
+    height: 22px;
+    padding: 0 5px 0 22px;
+    background: #21a557 url(../../img/spirit.png) no-repeat -36px 0;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#navigate .left #gz-button:hover {
+    background-color: #3399aa;
+}
+
+#navigate .left .qx {
+    display: none;
+}
+
+#navigate .left .fans {
+    margin-left: 14px;
+    color: #666;
+}
+
+#navigate .right {
+    float: right;
+}
+
+#navigate .right li {
+    margin-right: 56px;
+    font-size: 16px;
+    color: #666;
+}
+
+#navigate .right .ss {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    background: url(../../img/spirit.png) no-repeat;
+}
+
+#navigate .right .ss:hover {
+    background: url(../../img/spirit.png) no-repeat 0 -18px;
+}
+
+/* 顶部通知栏开始 */
+#topnav {
+    background-color: #F3F3F3;
+    height: 36px;
+    display: none;
+}
+
+#topnav > div {
+    width: 1210px;
+    margin: 0 auto;
+    line-height: 36px;
+}
+
+#topnav .topnav-l {
+    float: left;
+}
+
+#topnav .topnav-l a {
+    color: #21A557;
+}
+
+#topnav .topnav-r {
+    float: right;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+#topnav .tr {
+    height: 12px;
+    margin-top: 11px;
+    background: url(../../img/spirit.png) no-repeat -283px -25px;
+}
+
+/* 顶部通知栏结束 */
+
+/*尾部*/
+#footer {
+    margin-top: 100px;
+    height: 300px;
+    background-color: #293339;
+    color: #FFF;
+}
+
+#footer .f-div {
+    width: 1206px;
+    margin: 0 auto;
+}
+
+#footer .f-div div {
+    float: left;
+    margin-top: 80px;
+    height: 125px;
+    color: #A9AAAC;
+}
+
+#footer .f-div0 {
+    width: 590px;
+    padding-left: 50px;
+}
+
+#footer .f-div1 {
+    width: 210px;
+}
+
+#footer .f-div2 {
+    width: 135px;
+}
+
+#footer a {
+    display: block;
+    height: 32px;
+    font: 20px/32px "microsoft yahei";
+    color: #A9AAAC;
+}
+
+#footer p {
+    height: 32px;
+    font: 14px/32px "microsoft yahei";
+    color: #A9AAAC;
+}
+
+#footer i {
+    display: block;
+    height: 23px;
+}
+
+#footer .weibo {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../../img/spirit.png) no-repeat -195px -8px;
+}
+
+#footer h3 {
+    margin: 20px 0 30px;
+    padding-left: 80px;
+    background: url("../../img/spirit.png") -220px 2px no-repeat;
+    color: #39A030;
+    font: 20px "microsoft yahei";
+}
+
+/*弹窗*/
+
+#sab, #login, #video {
+    display: none;
+    position: fixed;
+    z-index: 20;
+}
+
+#sab {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+}
+
+/*设置登录样式*/
+#login {
+    width: 388px;
+    /*transform: translate(-50%, -50%);*/
+    margin: -150px 0 0 -194px;
+    border-radius: 4px;
+}
+
+#login .form {
+    width: 295px;
+    margin: 0 auto 15px;
+}
+#loginHint {
+    color: #FF0000;
+    height: 20px;
+}
+#userName, #password ,#login .loginBtn{
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 4px;
+    margin: 15px auto;
+}
+#userName, #password {
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    box-shadow: inset 1px 1px 1px lightgray;
+}
+#login .loginBtn {
+    color: white;
+    line-height: 45px;
+    border: 1px solid #29b04e;
+    background: #3ea037;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+/* 设置视频样式 */
+#video {
+    width: 950px;
+    height: 676px;
+    /*transform: translate(-50%, -50%);*/
+    margin: -338px 0 0 -475px;
+}
+
+#video video {
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+/* 设置视频样式结束 */
+
+
+
+#login, #video {
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+}
+
+#video p, #login p {
+    height: 19px;
+    margin: 25px 30px;
+    display: inline-block;
+    font: bold 18px 'Microsoft YaHei';
+}
+
+#video .Stop, #login .Stop {
+    float: right;
+    cursor: pointer;
+}
+
+#video .Stop:hover, #login .Stop:hover {
+    color: #000;
+}
